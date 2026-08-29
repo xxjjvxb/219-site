@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>이일규 — AI 제품 기획·개발</title>
+<meta name="description" content="AI 제품을 기획부터 개발·운영까지. 강의 자료와 경력.">
+<link rel="canonical" href="https://219.co.kr/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="이일규 — AI 제품 기획·개발">
+<meta property="og:description" content="AI 제품을 기획부터 개발·운영까지. 강의 자료와 경력.">
+<meta property="og:url" content="https://219.co.kr/">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --ground:#F6F5F3; --surface:#fff;
+  --ink:#191817; --ink-soft:#474441; --muted:#787370;
+  --rule:#E0DCD6; --rule-strong:#C6C0B8;
+  --accent:#2F5D50; --accent-soft:#4A7D6E;
+  --f-sans:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,system-ui,Roboto,"Helvetica Neue","Segoe UI","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#141514; --surface:#1C1E1C;
+    --ink:#E9E7E3; --ink-soft:#BFBAB4; --muted:#8E8880;
+    --rule:#2D302C; --rule-strong:#454941;
+    --accent:#7FBCA8; --accent-soft:#A2D2C1;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#141514; --surface:#1C1E1C;
+  --ink:#E9E7E3; --ink-soft:#BFBAB4; --muted:#8E8880;
+  --rule:#2D302C; --rule-strong:#454941;
+  --accent:#7FBCA8; --accent-soft:#A2D2C1;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:var(--f-sans);font-weight:400;font-size:16px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  word-break:keep-all;overflow-wrap:break-word;
+  min-height:100dvh;display:flex;flex-direction:column;
+}
+.wrap{width:100%;max-width:38rem;margin:0 auto;padding:0 1.5rem;flex:1;display:flex;flex-direction:column;justify-content:center}
+a{color:var(--accent);text-underline-offset:2px;text-decoration-thickness:1px}
+a:hover{color:var(--accent-soft)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+h1{font-weight:700;font-size:clamp(1.9rem,5vw,2.5rem);letter-spacing:-.02em;line-height:1.15;margin:0 0 .3rem}
+.role{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 2.6rem}
+.cards{display:grid;gap:1rem;margin:0 0 3rem}
+.card{
+  display:block;border:1px solid var(--rule);background:var(--surface);
+  padding:1.25rem 1.4rem;text-decoration:none;color:var(--ink);
+  transition:border-color .15s;
+}
+.card:hover{border-color:var(--accent);color:var(--ink)}
+.card b{display:block;font-weight:600;font-size:1.05rem}
+.card span{display:block;font-size:.88rem;color:var(--muted);margin-top:.15rem}
+.greet{color:var(--ink-soft);font-size:.95rem;max-width:32rem;margin:0;text-wrap:pretty}
+.greet a{color:var(--accent)}
+footer{max-width:38rem;margin:0 auto;width:100%;padding:1.2rem 1.5rem 2rem;font-size:.78rem;color:var(--muted);display:flex;gap:1.5rem}
+@media (max-width:40rem){.wrap{padding-top:4rem;justify-content:flex-start}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>이일규</h1>
+  <p class="role">AI Product &middot; Engineering</p>
+
+  <nav class="cards">
+    <a class="card" href="/cv/">
+      <b>경력 &rarr;</b>
+      <span>이력 &middot; 프로젝트 &middot; 교육 전체</span>
+    </a>
+    <a class="card" href="https://vibe.219.co.kr">
+      <b>강의 자료 &rarr;</b>
+      <span>바이브코딩 과정 &middot; vibe.219.co.kr</span>
+    </a>
+  </nav>
+
+  <p class="greet">이 도메인은 개인 프로젝트와 커리어 관리 용도로 쓰고 있습니다. 찾아주셔서 감사합니다.</p>
+</div>
+<footer><span>&copy; 2026 이일규</span><a href="mailto:xxjjvxb@gmail.com">xxjjvxb@gmail.com</a></footer>
+</body>
+</html>
